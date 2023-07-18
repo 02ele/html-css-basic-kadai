@@ -1,3 +1,7 @@
+h1, p, body {
+  margin: 0px;
+}
+
 /* ヘッダー設定 */
 h1 {
   margin-bottom: 20px;
@@ -9,10 +13,6 @@ h1 {
 /* メイン設定 */
 main {
   margin: 10px;
-}
-
-p {
-  margin: 0px;
 }
 
 h2 {
@@ -30,6 +30,10 @@ h2::before {
   justify-content: space-around;
   margin: 10px;
 
+}
+
+p, a {
+  font-size: 20px;
 }
 
 .contents {
